@@ -1,0 +1,11 @@
+*.env
+
+.idea
+.vscode
+
+http-client.private.env.json
+
+.DS_Store
+vendor
+
+bin

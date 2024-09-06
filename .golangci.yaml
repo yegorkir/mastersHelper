@@ -1,0 +1,24 @@
+run:
+  build-tags:
+    - integration
+
+linters-settings:
+  govet:
+    disable:
+      - composites
+
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - unused
+    - makezero
+    - bodyclose
+    - decorder
+    - exhaustive
+    - exportloopref
+    - gocyclo
